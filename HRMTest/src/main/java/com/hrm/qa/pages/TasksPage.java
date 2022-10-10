@@ -1,5 +1,7 @@
 package com.hrm.qa.pages;
 
-public class TasksPage {
+import com.hrm.qa.base.TestBase;
+
+public class TasksPage extends TestBase{
 
 }

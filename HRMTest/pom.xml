@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>HRMTestAutomation </groupId>
+  <groupId>HRMTestAutomation</groupId>
   <artifactId>HRMTest</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
@@ -15,7 +15,7 @@
   </properties>
 
   <dependencies>
-
+     <!-- dependency for Selenium -->
      <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 	<dependency>
 	    <groupId>org.seleniumhq.selenium</groupId>
@@ -23,6 +23,7 @@
 	    <version>4.5.0</version>
 	</dependency>
 
+	<!-- dependency for TestNG -->
   	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 	<dependency>
 	    <groupId>org.testng</groupId>
@@ -31,6 +32,8 @@
 	    <scope>compile</scope>
 	</dependency>
   
+  	<!-- dependency for Apache POI API -->
+  	<!--https://mvnrepository.com/artifact/org.apache.poi/poi -->
     <dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
