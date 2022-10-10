@@ -18,6 +18,15 @@ public class LoginPageTest extends TestBase {
 	public LoginPageTest() {
 		super();
 	}
+	
+	@BeforeMethod
+	public void seup() {
+		initialization();
+		loginPage = new LoginPage();
+		
+	}
+	
+	@Test(priority = 1)
 	public void loginPageTitleTest(){
 		String  title = loginPage.validateLoginPageTitle();
 		Assert.assertEquals(title,"actiTIME - Login");
