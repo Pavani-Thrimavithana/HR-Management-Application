@@ -38,8 +38,8 @@ public class TestBase {
 		String browserName = prop.getProperty("browser");
 		
 		if(browserName.equals("chrome")){
-			System.setProperty("webdriver.chrme.driver",System.getProperty("user.dir")+ "src/main/resources/chromedriver");
-			driver = new ChromeDriver();	
+			System.setProperty("webdriver.chrome.driver", "//chromedriver");	
+			driver = new ChromeDriver(); 
 		}
 		
 //		maximize the window, delete the cookies, page load timeout an implicit wait time
