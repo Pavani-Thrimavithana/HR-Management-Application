@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.hrm.qa.base.TestBase;
+import org.apache.log4j.Logger;
 
 public class ReportsPage extends TestBase {
 
@@ -32,6 +33,8 @@ public class ReportsPage extends TestBase {
     @FindBy(xpath = "//div[@class='reportNameWrapper']/div[@class='reportName']")
     WebElement reportTitle;
 	
+    public static Logger logger = Logger.getLogger(ReportsPage.class);
+    
 //	initializing the Page Objects
 	public ReportsPage(){
 		PageFactory.initElements(driver, this);
@@ -40,7 +43,7 @@ public class ReportsPage extends TestBase {
 //	methods
     @SuppressWarnings("deprecation")
 	public Boolean verifyReportPageTitle() {
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS) ;
+        driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS) ;
         return reportMainPageTitle.isDisplayed();
     }
     public Boolean verifyLeaveChartIsDisplayed() {
@@ -48,22 +51,26 @@ public class ReportsPage extends TestBase {
     }
     @SuppressWarnings("deprecation")
 	public void clickPastMonthLeaveReport() {
+    	logger.info("Clicking past Months Leave Chart Section-----");
         driver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS) ;
         pastMonthsLeaveReportContainer.click();
     }
     @SuppressWarnings("deprecation")
 	public String getReportName() {
+    	logger.info("get Report Name-----");
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS) ;
             return reportTitle.getText();
 
     }
     @SuppressWarnings("deprecation")
 	public void clickAttendanceReport() {
+    	logger.info("Clicking Attendance Chart Section-----");
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS) ;
         attendanceReportContainer.click();
     }
     @SuppressWarnings("deprecation")
 	public void clickCreateChartCancelBtn() {
+    	logger.info("Clicking cancel button-----");
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS) ;
         createCharCancelBtn.click();
     }

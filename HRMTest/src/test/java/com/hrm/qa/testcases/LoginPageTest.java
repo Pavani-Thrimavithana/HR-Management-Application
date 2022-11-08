@@ -28,22 +28,19 @@ public class LoginPageTest extends TestBase {
 	@BeforeMethod
 	public void setup() {
 		initialization();
-		loginPage = new LoginPage();
-		
+		loginPage = new LoginPage();	
 	}
 	
 	@Test(priority = 1)
 	public void loginPageTitleTest(){
 		String  title = loginPage.validateLoginPageTitle();
 		Assert.assertEquals(title,"actiTIME - Login","Login Page Titile not matched");
-		
 	}
 	
 	@Test(priority = 2)
 	public void hrmLogoTest(){
 		boolean img = loginPage.validateHRMImage();
 		Assert.assertTrue(img);
-		
 	}
 	
 	@DataProvider
@@ -68,7 +65,6 @@ public class LoginPageTest extends TestBase {
 		loginPage.invalidLogging(userName, password);
 		Assert.assertEquals(loginPage.validateLoginErrorMessage(),"Username or Password is invalid. Please try again.","Invalid login error msg is not displayed");
 	}
-	
 	
 	@AfterMethod
 	public void tearDown() {

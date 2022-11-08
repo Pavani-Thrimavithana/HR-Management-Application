@@ -4,12 +4,13 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+
 import com.hrm.qa.base.TestBase;
 import com.hrm.qa.pages.HomePage;
 import com.hrm.qa.pages.LoginPage;
 import com.hrm.qa.pages.UsersPage;
 
-import dev.failsafe.internal.util.Assert;
+import org.testng.Assert;
 
 public class UserPageTest extends TestBase{
 
@@ -35,7 +36,7 @@ public class UserPageTest extends TestBase{
 	
 	@Test
 	public void userProfilesTest() {
-		homePage.clickOnUsersLink();
+		homePage.clickOnUserTab();
 		Assert.assertTrue(usersPage.verifyUserPageTitle(),"Users page title is not loaded");
 		Assert.assertTrue(usersPage.verifyUserProfilesTable(),"Users Table is not found");
 		Assert.assertTrue(usersPage.verifyUsersListCount(),"Users Table is empty");

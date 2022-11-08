@@ -27,14 +27,13 @@ public class HomePageTest extends TestBase {
 	public void setup() {
 		initialization();
 		loginPage = new LoginPage();
-		usersPage = new UsersPage();
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 	}
 	
 	@Test(priority = 1)
 	public void loginPageTitleTest(){
 		String  title = homePage.validateHomePageTitle();
-		Assert.assertEquals(title,"actiTIME -  Approve Time-Track","Home Page Title not matched");
+		Assert.assertEquals(title,"actiTIME - Login","Home Page Title not matched");
 		
 	}
 	

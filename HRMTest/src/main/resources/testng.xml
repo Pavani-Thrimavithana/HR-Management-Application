@@ -9,10 +9,10 @@
 
    <test name = "HRM Application Test Cases">
       <classes>
-         <class name = "com.hrm.qa.testcases.LognPageTest" />
+         <class name = "com.hrm.qa.testcases.LoginPageTest" />
          <class name = "com.hrm.qa.testcases.HomePageTest" />
-         <class name = "com.hrm.qa.testcases.UsersPageTest" />
-         <class name = "com.hrm.qa.testcases.ReportsPageTest" />
+         <class name = "com.hrm.qa.testcases.UserPageTest" />
+         <class name = "com.hrm.qa.testcases.ReportPageTest" />
          <class name = "com.hrm.qa.testcases.TimeTrackPageTest" />
       </classes>
    </test>

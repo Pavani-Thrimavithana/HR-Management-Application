@@ -8,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.hrm.qa.base.TestBase;
+import org.apache.log4j.Logger;
 
 public class TimeTrackPage extends TestBase {
 	
@@ -47,6 +48,8 @@ public class TimeTrackPage extends TestBase {
     
     @FindBy(xpath = "//span[@class='statusApprovalSelectorButtonTitle']")
     WebElement statusApprovalSelectorButtonTitle;
+    
+    public static Logger logger = Logger.getLogger(TimeTrackPage.class);
     
 //	initializing the Page Objects
 	public TimeTrackPage(){
@@ -91,12 +94,14 @@ public class TimeTrackPage extends TestBase {
     
     @SuppressWarnings("deprecation")
 	public void clickTimeTrackApproveBtn() {
+    	logger.info("Clicking Approve Button-----");
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS) ;
         approveTimeTrackBtn.click();
     }
 
     @SuppressWarnings("deprecation")
 	public void clickTimeTrackRejectBtn() {
+    	logger.info("Clicking reject Button-----");
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS) ;
         rejectTimeTrackBtn.click();
     }
@@ -113,7 +118,7 @@ public class TimeTrackPage extends TestBase {
     }
     
     public Boolean verifyUserNameListCount() {
-        System.out.println("count "+userListInApproveTimeTrackTable.size());
+    	logger.info("UserNameListCount-----"+userListInApproveTimeTrackTable.size());
         return userListInApproveTimeTrackTable.size() != 0;
     }
 }

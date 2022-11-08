@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.hrm.qa.base.TestBase;
+import org.apache.log4j.Logger;
 
 public class UsersPage extends TestBase {
 	
@@ -20,6 +21,8 @@ public class UsersPage extends TestBase {
     @FindBy(xpath = "//*[@class='pagetitle']//span[text() = \"List of Users\"]")
     WebElement pageTitle;
 	
+    public static Logger logger = Logger.getLogger(UsersPage.class);
+    
 //	initializing the Page Objects
 	public UsersPage(){
 		PageFactory.initElements(driver, this);
@@ -40,6 +43,7 @@ public class UsersPage extends TestBase {
     }
     
     public Boolean verifyUsersListCount() {
+    	logger.info("Getting user list count-----");
         if (userProfilesList.size() == 0)
         {
             return false;

@@ -1,49 +1,385 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="12" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-07T17:30:08 IST" name="Default suite" finished-at="2022-11-07T17:31:01 IST" duration-ms="52993">
+  <suite started-at="2022-11-08T23:14:47 IST" name="HRM Application Automation Test Suite" finished-at="2022-11-08T23:19:28 IST" duration-ms="280796">
     <groups>
     </groups>
-    <test started-at="2022-11-07T17:30:08 IST" name="Default test" finished-at="2022-11-07T17:31:01 IST" duration-ms="52993">
+    <test started-at="2022-11-08T23:14:47 IST" name="HRM Application Test Cases" finished-at="2022-11-08T23:19:28 IST" duration-ms="280796">
       <class name="com.hrm.qa.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@35cabb2a]" started-at="2022-11-07T17:30:08 IST" name="setup" finished-at="2022-11-07T17:30:34 IST" duration-ms="25583" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@6aeb35e6]" started-at="2022-11-08T23:14:47 IST" name="setup" finished-at="2022-11-08T23:15:02 IST" duration-ms="15067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginPageTitleTest()[pri:1, instance:com.hrm.qa.testcases.LoginPageTest@35cabb2a]" started-at="2022-11-07T17:30:34 IST" name="loginPageTitleTest" finished-at="2022-11-07T17:30:34 IST" duration-ms="101" status="PASS">
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.hrm.qa.testcases.LoginPageTest@6aeb35e6]" started-at="2022-11-08T23:15:02 IST" name="loginPageTitleTest" finished-at="2022-11-08T23:15:02 IST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@35cabb2a]" started-at="2022-11-07T17:30:34 IST" name="tearDown" finished-at="2022-11-07T17:30:34 IST" duration-ms="579" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@6aeb35e6]" started-at="2022-11-08T23:15:02 IST" name="tearDown" finished-at="2022-11-08T23:15:03 IST" duration-ms="1077" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@35cabb2a]" started-at="2022-11-07T17:30:34 IST" name="setup" finished-at="2022-11-07T17:30:48 IST" duration-ms="13823" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@6aeb35e6]" started-at="2022-11-08T23:15:03 IST" name="setup" finished-at="2022-11-08T23:15:17 IST" duration-ms="13466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="hrmLogoTest()[pri:2, instance:com.hrm.qa.testcases.LoginPageTest@35cabb2a]" started-at="2022-11-07T17:30:48 IST" name="hrmLogoTest" finished-at="2022-11-07T17:30:48 IST" duration-ms="58" status="PASS">
+        <test-method signature="hrmLogoTest()[pri:2, instance:com.hrm.qa.testcases.LoginPageTest@6aeb35e6]" started-at="2022-11-08T23:15:17 IST" name="hrmLogoTest" finished-at="2022-11-08T23:15:17 IST" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hrmLogoTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@35cabb2a]" started-at="2022-11-07T17:30:48 IST" name="tearDown" finished-at="2022-11-07T17:30:49 IST" duration-ms="447" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@6aeb35e6]" started-at="2022-11-08T23:15:17 IST" name="tearDown" finished-at="2022-11-08T23:15:17 IST" duration-ms="315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@35cabb2a]" started-at="2022-11-07T17:30:49 IST" name="setup" finished-at="2022-11-07T17:31:00 IST" duration-ms="11315" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@6aeb35e6]" started-at="2022-11-08T23:15:18 IST" name="setup" finished-at="2022-11-08T23:15:31 IST" duration-ms="13179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:3, instance:com.hrm.qa.testcases.LoginPageTest@35cabb2a]" started-at="2022-11-07T17:31:00 IST" name="loginTest" finished-at="2022-11-07T17:31:01 IST" duration-ms="534" status="PASS">
+        <test-method signature="validUserLoginTest(java.lang.String,java.lang.String)[pri:3, instance:com.hrm.qa.testcases.LoginPageTest@6aeb35e6]" started-at="2022-11-08T23:15:31 IST" name="validUserLoginTest" data-provider="getValidLoginTestData" finished-at="2022-11-08T23:15:32 IST" duration-ms="269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@35cabb2a]" started-at="2022-11-07T17:31:01 IST" name="tearDown" finished-at="2022-11-07T17:31:01 IST" duration-ms="507" status="PASS">
+        </test-method> <!-- validUserLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@6aeb35e6]" started-at="2022-11-08T23:15:32 IST" name="tearDown" finished-at="2022-11-08T23:15:32 IST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@6aeb35e6]" started-at="2022-11-08T23:15:32 IST" name="setup" finished-at="2022-11-08T23:15:44 IST" duration-ms="11721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validUserLoginTest(java.lang.String,java.lang.String)[pri:3, instance:com.hrm.qa.testcases.LoginPageTest@6aeb35e6]" started-at="2022-11-08T23:15:44 IST" name="validUserLoginTest" data-provider="getValidLoginTestData" finished-at="2022-11-08T23:15:44 IST" duration-ms="302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[trainee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[trainee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@6aeb35e6]" started-at="2022-11-08T23:15:44 IST" name="tearDown" finished-at="2022-11-08T23:15:45 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@6aeb35e6]" started-at="2022-11-08T23:15:45 IST" name="setup" finished-at="2022-11-08T23:15:56 IST" duration-ms="11205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidUserLoginTest(java.lang.String,java.lang.String)[pri:4, instance:com.hrm.qa.testcases.LoginPageTest@6aeb35e6]" started-at="2022-11-08T23:15:56 IST" name="invalidUserLoginTest" data-provider="getInvalidLoginTestData" finished-at="2022-11-08T23:15:57 IST" duration-ms="1557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[trainee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@6aeb35e6]" started-at="2022-11-08T23:15:57 IST" name="tearDown" finished-at="2022-11-08T23:15:58 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@6aeb35e6]" started-at="2022-11-08T23:15:58 IST" name="setup" finished-at="2022-11-08T23:16:19 IST" duration-ms="21093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidUserLoginTest(java.lang.String,java.lang.String)[pri:4, instance:com.hrm.qa.testcases.LoginPageTest@6aeb35e6]" started-at="2022-11-08T23:16:19 IST" name="invalidUserLoginTest" data-provider="getInvalidLoginTestData" finished-at="2022-11-08T23:16:21 IST" duration-ms="1827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[trainee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.LoginPageTest@6aeb35e6]" started-at="2022-11-08T23:16:21 IST" name="tearDown" finished-at="2022-11-08T23:16:21 IST" duration-ms="840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.hrm.qa.testcases.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.hrm.qa.testcases.TimeTrackPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrm.qa.testcases.TimeTrackPageTest@41d477ed]" started-at="2022-11-08T23:18:24 IST" name="setup" finished-at="2022-11-08T23:18:41 IST" duration-ms="17399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="timeSheetApprovalTest()[pri:1, instance:com.hrm.qa.testcases.TimeTrackPageTest@41d477ed]" started-at="2022-11-08T23:18:41 IST" name="timeSheetApprovalTest" finished-at="2022-11-08T23:18:55 IST" duration-ms="14388" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input type="checkbox"> is not clickable at point (1116, 310). Other element would receive the click: <div id="preInsertedTransformedMoireId" class="transformedMoireClass" style="transition: opacity 600ms ease-in-out 0s; opacity: 0;"></div>
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a9992dfb3469fcd5d7ec4caa3d9eacf, clickElement {id=bc532880-ebac-4135-b6f3-e3a33e60aff3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Pavi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49897}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49897/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9a9992dfb3469fcd5d7ec4caa3d9eacf)] -> xpath: //table[@id='approveTTTable']//tbody[@class='data']//td//input[@type='checkbox']]
+Session ID: 9a9992dfb3469fcd5d7ec4caa3d9eacf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="checkbox"> is not clickable at point (1116, 310). Other element would receive the click: <div id="preInsertedTransformedMoireId" class="transformedMoireClass" style="transition: opacity 600ms ease-in-out 0s; opacity: 0;"></div>
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a9992dfb3469fcd5d7ec4caa3d9eacf, clickElement {id=bc532880-ebac-4135-b6f3-e3a33e60aff3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Pavi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49897}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49897/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9a9992dfb3469fcd5d7ec4caa3d9eacf)] -> xpath: //table[@id='approveTTTable']//tbody[@class='data']//td//input[@type='checkbox']]
+Session ID: 9a9992dfb3469fcd5d7ec4caa3d9eacf
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:377)
+at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:390)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+at com.hrm.qa.pages.TimeTrackPage.selectFirstUserCheckBox(TimeTrackPage.java:113)
+at com.hrm.qa.testcases.TimeTrackPageTest.timeSheetApprovalTest(TimeTrackPageTest.java:41)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeSheetApprovalTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.TimeTrackPageTest@41d477ed]" started-at="2022-11-08T23:18:55 IST" name="tearDown" finished-at="2022-11-08T23:18:56 IST" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrm.qa.testcases.TimeTrackPageTest@41d477ed]" started-at="2022-11-08T23:18:56 IST" name="setup" finished-at="2022-11-08T23:19:13 IST" duration-ms="17107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="timeSheetRejectTest()[pri:2, instance:com.hrm.qa.testcases.TimeTrackPageTest@41d477ed]" started-at="2022-11-08T23:19:13 IST" name="timeSheetRejectTest" finished-at="2022-11-08T23:19:28 IST" duration-ms="14475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeSheetRejectTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.TimeTrackPageTest@41d477ed]" started-at="2022-11-08T23:19:28 IST" name="tearDown" finished-at="2022-11-08T23:19:28 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrm.qa.testcases.TimeTrackPageTest -->
+      <class name="com.hrm.qa.testcases.ReportPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrm.qa.testcases.ReportPageTest@78691363]" started-at="2022-11-08T23:17:52 IST" name="setup" finished-at="2022-11-08T23:18:09 IST" duration-ms="17170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reportsLinkTest()[pri:0, instance:com.hrm.qa.testcases.ReportPageTest@78691363]" started-at="2022-11-08T23:18:09 IST" name="reportsLinkTest" finished-at="2022-11-08T23:18:23 IST" duration-ms="13482" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="/reports/reports.do" class="content reports">...</a> is not clickable at point (772, 35). Other element would receive the click: <div id="preInsertedTransformedMoireId" class="transformedMoireClass" style="transition: opacity 600ms ease-in-out 0s; opacity: 0;"></div>
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f99a5cc0e209def4aa301c232514872, clickElement {id=e7e143b3-1dd5-41a7-ac44-bcf467ec464d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Pavi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49830}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49830/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9f99a5cc0e209def4aa301c232514872)] -> xpath: //a[@class='content reports']]
+Session ID: 9f99a5cc0e209def4aa301c232514872]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/reports/reports.do" class="content reports">...</a> is not clickable at point (772, 35). Other element would receive the click: <div id="preInsertedTransformedMoireId" class="transformedMoireClass" style="transition: opacity 600ms ease-in-out 0s; opacity: 0;"></div>
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f99a5cc0e209def4aa301c232514872, clickElement {id=e7e143b3-1dd5-41a7-ac44-bcf467ec464d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Pavi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49830}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49830/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9f99a5cc0e209def4aa301c232514872)] -> xpath: //a[@class='content reports']]
+Session ID: 9f99a5cc0e209def4aa301c232514872
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:377)
+at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:390)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+at com.hrm.qa.pages.HomePage.clickOnReportsTab(HomePage.java:72)
+at com.hrm.qa.testcases.ReportPageTest.reportsLinkTest(ReportPageTest.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportsLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.ReportPageTest@78691363]" started-at="2022-11-08T23:18:23 IST" name="tearDown" finished-at="2022-11-08T23:18:24 IST" duration-ms="1066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrm.qa.testcases.ReportPageTest -->
+      <class name="com.hrm.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrm.qa.testcases.HomePageTest@3e694b3f]" started-at="2022-11-08T23:16:21 IST" name="setup" finished-at="2022-11-08T23:16:34 IST" duration-ms="12678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.hrm.qa.testcases.HomePageTest@3e694b3f]" started-at="2022-11-08T23:16:34 IST" name="loginPageTitleTest" finished-at="2022-11-08T23:16:34 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.HomePageTest@3e694b3f]" started-at="2022-11-08T23:16:34 IST" name="tearDown" finished-at="2022-11-08T23:16:35 IST" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrm.qa.testcases.HomePageTest@3e694b3f]" started-at="2022-11-08T23:16:35 IST" name="setup" finished-at="2022-11-08T23:16:48 IST" duration-ms="13669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="hrmLogoTest()[pri:2, instance:com.hrm.qa.testcases.HomePageTest@3e694b3f]" started-at="2022-11-08T23:16:48 IST" name="hrmLogoTest" finished-at="2022-11-08T23:16:53 IST" duration-ms="4687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hrmLogoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.HomePageTest@3e694b3f]" started-at="2022-11-08T23:16:53 IST" name="tearDown" finished-at="2022-11-08T23:16:53 IST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrm.qa.testcases.HomePageTest@3e694b3f]" started-at="2022-11-08T23:16:53 IST" name="setup" finished-at="2022-11-08T23:17:05 IST" duration-ms="12035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logonUserNameTest()[pri:3, instance:com.hrm.qa.testcases.HomePageTest@3e694b3f]" started-at="2022-11-08T23:17:05 IST" name="logonUserNameTest" finished-at="2022-11-08T23:17:10 IST" duration-ms="4105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logonUserNameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.HomePageTest@3e694b3f]" started-at="2022-11-08T23:17:10 IST" name="tearDown" finished-at="2022-11-08T23:17:10 IST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrm.qa.testcases.HomePageTest@3e694b3f]" started-at="2022-11-08T23:17:10 IST" name="setup" finished-at="2022-11-08T23:17:21 IST" duration-ms="10904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UserTab()[pri:4, instance:com.hrm.qa.testcases.HomePageTest@3e694b3f]" started-at="2022-11-08T23:17:21 IST" name="UserTab" finished-at="2022-11-08T23:17:31 IST" duration-ms="9760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserTab -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.HomePageTest@3e694b3f]" started-at="2022-11-08T23:17:31 IST" name="tearDown" finished-at="2022-11-08T23:17:31 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrm.qa.testcases.HomePageTest -->
+      <class name="com.hrm.qa.testcases.UserPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hrm.qa.testcases.UserPageTest@1bb5a082]" started-at="2022-11-08T23:17:31 IST" name="setup" finished-at="2022-11-08T23:17:45 IST" duration-ms="14095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userProfilesTest()[pri:0, instance:com.hrm.qa.testcases.UserPageTest@1bb5a082]" started-at="2022-11-08T23:17:45 IST" name="userProfilesTest" finished-at="2022-11-08T23:17:52 IST" duration-ms="6464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userProfilesTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hrm.qa.testcases.UserPageTest@1bb5a082]" started-at="2022-11-08T23:17:52 IST" name="tearDown" finished-at="2022-11-08T23:17:52 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrm.qa.testcases.UserPageTest -->
+    </test> <!-- HRM Application Test Cases -->
+  </suite> <!-- HRM Application Automation Test Suite -->
 </testng-results>

@@ -13,25 +13,21 @@ import com.hrm.qa.base.TestBase;
 @SuppressWarnings("deprecation")
 public class WebEventListener extends TestBase implements WebDriverEventListener {
 
-	@Override
 	public void beforeAlertAccept(WebDriver driver) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
 	public void afterAlertAccept(WebDriver driver) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
 	public void afterAlertDismiss(WebDriver driver) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
 	public void beforeAlertDismiss(WebDriver driver) {
 		// TODO Auto-generated method stub
 		
@@ -61,13 +57,11 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 		System.out.println("Navigated forward to next page");
 	}
 
-	@Override
 	public void beforeNavigateRefresh(WebDriver driver) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
 	public void afterNavigateRefresh(WebDriver driver) {
 		// TODO Auto-generated method stub
 		
@@ -97,25 +91,21 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 		System.out.println("Element value changed to: " + element.toString());
 	}
 
-	@Override
 	public void beforeScript(String script, WebDriver driver) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
 	public void afterScript(String script, WebDriver driver) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
 	public void beforeSwitchToWindow(String windowName, WebDriver driver) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
 	public void afterSwitchToWindow(String windowName, WebDriver driver) {
 		// TODO Auto-generated method stub
 		
@@ -130,37 +120,31 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 		}
 	}
 
-	@Override
 	public <X> void beforeGetScreenshotAs(OutputType<X> target) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
 	public <X> void afterGetScreenshotAs(OutputType<X> target, X screenshot) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
 	public void beforeGetText(WebElement element, WebDriver driver) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
 	public void afterGetText(WebElement element, WebDriver driver, String text) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
 	public void beforeChangeValueOf(WebElement element, WebDriver driver, CharSequence[] keysToSend) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
 	public void afterChangeValueOf(WebElement element, WebDriver driver, CharSequence[] keysToSend) {
 		// TODO Auto-generated method stub
 		
