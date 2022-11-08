@@ -27,6 +27,9 @@ public class LoginPage extends TestBase {
 	@FindBy(xpath = "//div[@class='atLogoImg']")
 	WebElement logo;
 	
+	@FindBy(xpath = "//span[@class='errormsg']")
+	WebElement loginErrorMsg;
+	
 //	initializing the Page Objects
 	public LoginPage(){
 		PageFactory.initElements(driver, this);
@@ -46,5 +49,22 @@ public class LoginPage extends TestBase {
 		password.sendKeys(pwd);
 		loginButton.click();
 		return new HomePage();
+	}
+	
+	public String validateLoginErrorMessage() {
+		if(loginErrorMsg.isDisplayed()) {
+			return loginErrorMsg.getText();
+		}
+		else{			
+			return "";
+		}
+	}
+	
+	public void invalidLogging(String un, String pwd) throws InterruptedException {
+		username.sendKeys(un);
+		password.sendKeys(pwd);
+		loginButton.click();
+		Thread.sleep(300);
+
 	}
 }

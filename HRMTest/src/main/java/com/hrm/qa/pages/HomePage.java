@@ -42,6 +42,9 @@ public class HomePage extends TestBase {
 	@FindBy(xpath = "//div[@class='popup_menu_button popup_menu_button_support']//div[@class='popup_menu_icon']")
 	WebElement support;
 	
+    @FindBy(xpath = "//a[@class='content selected tt']")
+    WebElement timeTrackContainerLink;
+	
 //	initializing the Page Objects
 	public HomePage(){
 		PageFactory.initElements(driver, this);
@@ -74,4 +77,9 @@ public class HomePage extends TestBase {
 		tasksTab.click();
 		return new TasksPage();
 	}
+	
+    public TimeTrackPage clickOnTimeTrackLink() {
+        timeTrackContainerLink.click();
+        return new TimeTrackPage();
+    }
 }
